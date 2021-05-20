@@ -1,12 +1,12 @@
 # Infra Point Net
 Infra point net supports the train and prediction related to LiDAR point cloud dataset developed by Taewook Kang (laputa99999@gmail.com).
 
-# algorithm
-fileList = readPointsList('list.txt')
-for file in fileList:
-    class, pcd = convertPCDtoTrainData(file) # convert octree
-    train(net, class, pcd)
+# algorithm  
+fileList = readPointsList('list.txt') <br/>
+for file in fileList: <br/>
+    class, pcd = convertPCDtoTrainData(file) # convert octree <br/>
+    train(net, class, pcd) <br/>
 
-class net:
-    def model():
+class net: <br/>
+    def model(): <br/>
         return
